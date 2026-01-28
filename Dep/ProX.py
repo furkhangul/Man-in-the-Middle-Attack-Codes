@@ -14,6 +14,7 @@ def MacBulucu(ip):
     else:
         return (packet[0][1].hwsrc)
 
+
 def Giris():
     parse = optparse.OptionParser()
     parse.add_option("-t","--target",dest="target",help="Hedef ip giriniz.")
