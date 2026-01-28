@@ -9,6 +9,7 @@ def MacBulucu(ip):
     fake_packet = view_packet / res_packet
     packet = scapy.srp(fake_packet, timeout=2, verbose=False)[0]
 
+    
     if len(packet) == 0:
         print("MAC bulunamadı")
     else:
